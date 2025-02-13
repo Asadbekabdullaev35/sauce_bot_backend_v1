@@ -1,0 +1,21 @@
+{
+  "name": "solana-telegram-bot",
+  "version": "1.0.0",
+  "main": "trade-api.js",
+  "scripts": {
+  "start": "node trade-api.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "body-parser": "^1.20.3",
+    "bs58": "^4.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.16.3"
+  }
+}
